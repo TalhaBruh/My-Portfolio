@@ -1,0 +1,36 @@
+// test.scss
+
+// Variables
+$primary-color: #007bff;
+$secondary-color: #ffc107;
+
+// Styles
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  color: $primary-color;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
