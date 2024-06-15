@@ -150,11 +150,15 @@
 
 .hero-section > div > .hero-links {
   display: flex;
-  gap: 19px;
+  gap: 25px;
   align-items: baseline;
 }
 
 
+.hero-links img {
+  width: 30px; 
+  height: auto; 
+}
 
 
 
