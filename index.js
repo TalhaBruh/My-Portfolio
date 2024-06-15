@@ -25,8 +25,10 @@ const projectList = [
     role: "Front End Development",
     year: "2024",
     tags: ["React", "NextJS", "MongodbAtlas", "Github", "Tailwind"],
-    liveLink: "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
-    sourceLink: "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
+    liveLink:
+      "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
+    sourceLink:
+      "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
   },
   {
     title: "Bliss Beans",
@@ -54,8 +56,7 @@ const projectList = [
   },
   {
     title: "Portfolio",
-    description:
-      "My personal portfolio for you to know me better.",
+    description: "My personal portfolio for you to know me better.",
     imageURL: "assets/images/portfolio.png",
     company: "Github",
     role: "Developer",
@@ -80,13 +81,17 @@ for (let i = 0; i < projectList.length; i += 1) {
           <span class='closeBtn'>X</span>
         </div>
         <div class="popup_body">
-          <div>${projectList[i].company} . ${projectList[i].role} . ${projectList[i].year}</div>
+          <div>${projectList[i].company} . ${projectList[i].role} . ${
+      projectList[i].year
+    }</div>
           <img src=${projectList[i].imageURL} >
           <div class="popup_details">
             <p>${projectList[i].description}</p>
             <div class='popup_tags_links'>
               <div class='popup_tags'>
-                ${projectList[i].tags.map((tech) => `<span class='tech'> ${tech} </span>`).join(" ")}
+                ${projectList[i].tags
+                  .map((tech) => `<span class='tech'> ${tech} </span>`)
+                  .join(" ")}
               </div>
               <div>
                 <a href="${projectList[i].liveLink}" target="_blank">
@@ -113,7 +118,6 @@ for (let i = 0; i < projectList.length; i += 1) {
     });
   });
 }
-
 
 /* Form Validation */
 
