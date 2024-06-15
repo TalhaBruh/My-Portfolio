@@ -520,8 +520,7 @@
   text-align: center;
   color: #fff;
   font-family: inherit;
-  background-image:
-    url(assets/images/contact-form-image.png),
+  background-image: url(assets/images/contact-form-image.png),
     url(assets/images/contact-form-image.png);
   background-position: top right, bottom right;
   padding-top: 150px;
@@ -546,7 +545,7 @@
 }
 
 .contact-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   text-align: center;
   color: #ebebff;
@@ -642,7 +641,7 @@ textarea {
 }
 
 .popup_details p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #344563;
 }
 
