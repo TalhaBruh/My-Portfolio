@@ -9,7 +9,7 @@
 }
 
 .navbar {
-  background: #fff;
+  background: #6070ff;
   height: 80px;
   width: 100%;
   position: fixed;
@@ -22,7 +22,7 @@
 .nav-branding {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #6070ff;
+  color: #fff;
   font-weight: 700;
   line-height: 40px;
   padding: 0 30px;
@@ -36,16 +36,16 @@
   width: 100%;
   height: 100vh;
   transition: 0.1s;
-  background: rgba(96, 112, 255, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(0.5rem);
   padding-top: 50px;
   z-index: 9;
 }
 
 .nav-link {
-  font-weight: 600;
+  font-weight: 1000;
   font-size: 30px;
-  color: #fff;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   margin: 10px;
 }
@@ -154,6 +154,17 @@
   align-items: baseline;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Work section */
 
 #work-container {
@@ -190,6 +201,7 @@
 
 .container > figure > img {
   width: 100%;
+  border-radius: 50px / 50px;    /*change*/
 }
 
 .Project-one-header {
@@ -224,15 +236,15 @@
 
 .project-description > .project1-text {
   position: static;
-  width: 55px;
-  height: 16px;
+  width: 85px;
+  height: 18px;
   left: 0;
-  top: 8px;
+  top: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 30px;
   color: #344563;
 }
 
@@ -246,7 +258,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 30px;
   color: #7a869a;
 }
 
@@ -260,19 +272,19 @@
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 30px;
   color: #7a869a;
 }
 
 .project-requirement {
-  font: normal normal 400 15px "Poppins", sans-serif;
-  line-height: 24px;
+  font: normal normal 300 20px "Poppins", sans-serif;
+  line-height: 22.5px;
   color: #344563;
   position: static;
-  width: 295px;
-  height: 76px;
+  width: 500px;
+  height: 76px;    /*changes*/
   left: 0;
-  top: 92px;
+  top: 0;
 }
 
 .Project1-languages {
@@ -286,7 +298,7 @@
 
 .Project1-languages > .lang1 {
   float: left;
-  width: 53px;
+  width: 60px;                /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -294,11 +306,12 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
+  margin-top: 150px;          /* This change*/
 }
 
 .Project1-languages > .lang2 {
   float: left;
-  width: 40px;
+  width: 70px;            /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -306,11 +319,12 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
+  margin-top: 150px;        /* This change*/
 }
 
 .Project1-languages > .lang3 {
   float: right;
-  width: 95px;
+  width: 80px;              /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -318,6 +332,7 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
+  margin-top: 150px;        /* This change*/
 }
 
 .btn {
@@ -329,15 +344,15 @@
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   border: 2px solid #6070ff;
   color: #6070ff;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  margin-top: 24px;
-  padding-left: 12px;
+  margin-top: 10px;
+  padding-left: 19px;     /* This change*/
 }
 
 .btn:hover {
@@ -671,12 +686,20 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
+
+
+
+
+
+
+
+
   /* navbar section */
 
   .nav-item a {
-    color: #344563;
-    font-weight: 500;
-    font-size: 18px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 20px;
   }
 
   .nav-menu {
@@ -695,6 +718,12 @@ textarea {
   .hamburger {
     display: none;
   }
+
+
+
+
+
+
 
   /* header section */
   .hero-section {
