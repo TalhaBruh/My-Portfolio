@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Syed Talha Portfolio
+# Talha Hussain Portfolio
 
 > This is my working portfolio. Inside you will find my background information, contact information, and my recent projects.
 
@@ -11,10 +11,6 @@
 - [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] Code Editor: VS Code
 - [x] Figma [Template 1](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
-
-## Live Demo
-
-Click here - [Live Demo]()
 
 ## Getting Started
 To get a local copy up and running follow these simple steps.
@@ -61,7 +57,7 @@ Please find the link in the Live Demo section.
 
 ## Author
 
-👤 **Syed Talha** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+👤 **Talha Hussain** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
   - GitHub: [![GitHub Badge](https://img.shields.io/badge/-TalhaBruh-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/TalhaBruh)
   - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-Syed--Talha-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/syed-talha-shah-60726a221/)
