@@ -17,46 +17,55 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 const projectList = [
   {
-    title: "Tonic",
+    title: "AI Blend VR",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    imageURL: "assets/images/desktop-img-1.png",
-    company: "CANOPY",
-    role: "Back End Dev",
-    year: "2015",
-    tags: ["html", "css", "javascript", "github", "ruby", "Bootstraps"],
+      "AI-VR Metahuman integrated in Unreal Engine through which user can conduct his mood therapy while customizing the appearance, response length and Conversation starting mood. The metahuman will have a real-time response within seconds and will use gesture movement and lip synchronization for a realistic experience in VR.",
+    imageURL: "assets/images/aiblendvr2.png",
+    company: "Moshpit Studios",
+    role: "Front End Development",
+    year: "2024",
+    tags: ["React", "NextJS", "MongodbAtlas", "Github", "Tailwind"],
+    liveLink: "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
+    sourceLink: "https://github.com/TalhaBruh/Mood-Therapy-ChatBot-NextJS-using-GPT3.5",
   },
   {
-    title: "Multi-Post Stories",
+    title: "Bliss Beans",
     description:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    imageURL: "assets/images/desktop-img2.png",
-    company: "FACEBOOK",
+      "A gratitude app for children where they can tell grandma about daily done good deed in a form of bean and write about it with picture & make a diary of it.",
+    imageURL: "assets/images/blissbeans.png",
+    company: "Upwork Project",
+    role: "Full cross platform development",
+    year: "2024",
+    tags: ["React Native", "Tailwind", "Github", "Flutter"],
+    liveLink: "https://github.com/TalhaBruh/React-Native-Gratitude-App",
+    sourceLink: "https://github.com/TalhaBruh/React-Native-Gratitude-App",
+  },
+  {
+    title: "Cinephile Cinema Project",
+    description:
+      "Cinephile Cinema is a web application built with the MEN (MongoDB, Express, Node.js) stack, designed for movie enthusiasts to create and manage their favorite movie lists, and stay updated with the latest movie news",
+    imageURL: "assets/images/cinephile.png",
+    company: "Dummy Project",
     role: "Full Stack Dev",
-    year: "2015",
-    tags: ["html", "css", "javascript", "github"],
+    year: "2023",
+    tags: ["HTML", "CSS", "JS", "Node", "Express", "Mongodb"],
+    liveLink: "https://github.com/TalhaBruh/Cinephile-Cinema-Project",
+    sourceLink: "https://github.com/TalhaBruh/Cinephile-Cinema-Project",
   },
   {
-    title: "Facebook 360",
+    title: "Portfolio",
     description:
-      "AExploring the future of media in Facebook`s first Virtual Realityapp; a place to discover and enjoy 360 photos and videos onGear VR",
-    imageURL: "assets/images/desktop-img3.png",
-    company: "FACEBOOK",
-    role: "Full Stack Dev",
-    year: "2015",
-    tags: ["html", "css", "javascript"],
-  },
-  {
-    title: "Uber Navigation",
-    description:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    imageURL: "assets/images/desktop-img4.png",
-    company: "Uber",
-    role: "Lead Developer",
-    year: "2018",
-    tags: ["html", "css", "javascript"],
+      "My personal portfolio for you to know me better.",
+    imageURL: "assets/images/portfolio.png",
+    company: "Github",
+    role: "Developer",
+    year: "2022",
+    tags: ["HTML", "CSS", "JS"],
+    liveLink: "https://github.com/TalhaBruh/My-Portfolio",
+    sourceLink: "https://github.com/TalhaBruh/My-Portfolio",
   },
 ];
+
 const pageBody = document.querySelector("body");
 const submitBtn = document.querySelectorAll(".submit-btn");
 
@@ -65,32 +74,36 @@ for (let i = 0; i < projectList.length; i += 1) {
     const popupContainer = document.createElement("div");
     popupContainer.className = "popup_container";
     popupContainer.innerHTML = `
-    <div class='popup'>
-      <div class='popup_head'>
-        <h2>${projectList[i].title}</h2>
-        <span class='closeBtn' >X</span>
-      </div>
-      <div class="popup_body">
-        <div>${projectList[i].company} . ${projectList[i].role} . ${
-      projectList[i].year
-    } </div>
-        <img src=${projectList[i].imageURL} >
-        <div class="popup_details">
-          <p>${projectList[i].description}</p>
-          <div class='popup_tags_links'>
-            <div class='popup_tags'>
-              ${projectList[i].tags
-                .map((tech) => ` <span class='tech'> ${tech} </span> `)
-                .join(" ")}
-            </div>
-            <div>
-              <button class='popup_btn'>See Live <img src="assets/images/Icon.png" ></button> 
-              <button class='popup_btn'>See Source <img src="assets/images/github.svg"></button>
+      <div class='popup'>
+        <div class='popup_head'>
+          <h2>${projectList[i].title}</h2>
+          <span class='closeBtn'>X</span>
+        </div>
+        <div class="popup_body">
+          <div>${projectList[i].company} . ${projectList[i].role} . ${projectList[i].year}</div>
+          <img src=${projectList[i].imageURL} >
+          <div class="popup_details">
+            <p>${projectList[i].description}</p>
+            <div class='popup_tags_links'>
+              <div class='popup_tags'>
+                ${projectList[i].tags.map((tech) => `<span class='tech'> ${tech} </span>`).join(" ")}
+              </div>
+              <div>
+                <a href="${projectList[i].liveLink}" target="_blank">
+                  <button class='popup_btn'>
+                    See Live <img src="assets/images/Icon.png" alt="Live Icon">
+                  </button>
+                </a>
+                <a href="${projectList[i].sourceLink}" target="_blank">
+                  <button class='popup_btn'>
+                    See Source <img src="assets/images/github.svg" alt="GitHub Icon">
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     `;
 
     pageBody.prepend(popupContainer);
@@ -100,6 +113,7 @@ for (let i = 0; i < projectList.length; i += 1) {
     });
   });
 }
+
 
 /* Form Validation */
 
