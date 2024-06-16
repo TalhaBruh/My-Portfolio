@@ -159,6 +159,7 @@
 .hero-links img {
   width: 30px; 
   height: auto; 
+  align-items: center;
 }
 
 .hero-links .bullet-image {
@@ -904,9 +905,24 @@ textarea {
   transform: rotate(90deg);
 }
 
+.hero-icons img {
+  width: 80px; 
+  height: auto; 
+  align-items: center;
+}
 
+.hero-icons img:hover {
+  transform: rotate(-180deg);
+  transition: 0.1s;
+}
 
-
+.hero-framework-skills {
+  animation: media1;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
 
 
 
@@ -998,8 +1014,8 @@ textarea {
 
   .hero-links {
     animation: media1;
-    animation-duration: 0.1s;
-    animation-delay: 0.1s;
+    animation-duration: 2s;
+    animation-delay: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
   }
