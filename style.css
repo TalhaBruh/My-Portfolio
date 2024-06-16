@@ -182,13 +182,13 @@
   background-color: rgb(255, 255, 255);
   border-radius: 16px;
   border: 1px solid rgb(223, 225, 230);
-  margin: 50px auto;
+  margin: 60px auto;
   padding: 16px 0;
   flex-direction: column;
 }
 
 .container > figure {
-  margin: 0 16px;
+  margin: 0 30px;
 }
 
 .popup_body img {
@@ -214,20 +214,21 @@
   gap: 20px;
 }
 
-.Project-one-header > h4 {
+.Project-one-header > h4 {                  /*AI Blend VR: A chat therapy application    */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 29px;
   line-height: 44px;
   color: #172b4d;
-  margin-top: 0;
+  margin-left: 50px;
 }
 
-.project-description {
+.project-description {             /*Mobile-app, cross platform, 2024*/
   display: flex;
-  gap: 5px;
+  gap: 1px;
   justify-content: space-between;
+  margin-left: 50px;  
 }
 
 .project1-text {
@@ -236,11 +237,11 @@
   font-weight: 500;
 }
 
-.project-description > .project1-text {
+.project-description > .project1-text {            /*Web Application*/
   position: static;
-  width: 85px;
-  height: 18px;
-  left: 0;
+  width: 100px;
+  height: 50px;
+  left: 100px;
   top: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -250,9 +251,9 @@
   color: #344563;
 }
 
-.project-description > .Project1-text2 {
+.project-description > .Project1-text2 {          /*Full Stack Dev.*/
   position: static;
-  width: 99px;
+  width: 180px;                           /*changes*/
   height: 16px;
   left: 0;
   top: 8px;
@@ -283,9 +284,9 @@
   line-height: 22.5px;
   color: #344563;
   position: static;
-  width: 500px;
-  height: 76px;    /*changes*/
-  left: 0;
+  width: 800px;
+  height: 76px;        /*changes*/
+  margin-left: 50px;   /*changes*/
   top: 0;
 }
 
@@ -300,8 +301,8 @@
 
 .Project1-languages > .lang1 {
   float: left;
-  width: 60px;                /* This change*/
-  height: 24px;
+  width: 150px;                /* This change*/
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +314,7 @@
 
 .Project1-languages > .lang2 {
   float: left;
-  width: 70px;            /* This change*/
+  width: 150px;            /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -326,7 +327,7 @@
 
 .Project1-languages > .lang3 {
   float: right;
-  width: 80px;              /* This change*/
+  width: 150px;              /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -353,7 +354,7 @@
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  margin-top: 10px;
+  margin-top: 50px;
   padding-left: 19px;     /* This change*/
 }
 
@@ -370,6 +371,23 @@
   box-shadow: 0 8px 16px #172b4d;
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #about-container {
   display: grid;
@@ -524,6 +542,28 @@
 .icon {
   margin-right: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact-me section */
 
@@ -741,6 +781,20 @@ textarea {
     width: 70%;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* work section */
   .container {
     display: flex;
@@ -763,6 +817,22 @@ textarea {
   .Project-one-header {
     width: 100%;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* About section  */
   .about-content {
@@ -804,6 +874,31 @@ textarea {
   .about-description {
     font-size: 15px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* Contact section */
   .contact-me {
