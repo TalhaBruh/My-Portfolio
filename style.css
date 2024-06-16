@@ -297,6 +297,7 @@
   gap: 10px;
   list-style: none;
   float: initial;
+  margin-left: 50px;   /* This change*/
 }
 
 .Project1-languages > .lang1 {
@@ -347,14 +348,15 @@
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 30px;
+  line-height: 50px;
   letter-spacing: 0.03em;
   border: 2px solid #6070ff;
   color: #6070ff;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 50px; 
   padding-left: 19px;     /* This change*/
 }
 

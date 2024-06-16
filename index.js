@@ -20,7 +20,7 @@ const projectList = [
     title: "AI Blend VR",
     description:
       "AI-VR Metahuman integrated in Unreal Engine through which user can conduct his mood therapy while customizing the appearance, response length and Conversation starting mood. The metahuman will have a real-time response within seconds and will use gesture movement and lip synchronization for a realistic experience in VR.",
-    imageURL: "assets/images/aiblendvr2.png",
+    imageURL: "assets/images/ai2.png",
     company: "Moshpit Studios",
     role: "Front End Development",
     year: "2024",
