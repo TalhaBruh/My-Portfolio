@@ -158,3 +158,21 @@ input.forEach((item) => {
     localStorage.setItem("savedDetails", userData);
   });
 });
+
+document.querySelectorAll('.menu1').forEach(menu => {
+  menu.addEventListener('click', () => {
+    const arrow = menu.querySelector('.arrow');
+    const dropdown = menu.nextElementSibling;
+
+    if (dropdown.classList.contains('show')) {
+      dropdown.classList.remove('show');
+      arrow.classList.remove('rotate');
+    } else {
+      document.querySelectorAll('.dropdown-menu ul ul').forEach(dd => dd.classList.remove('show'));
+      document.querySelectorAll('.arrow').forEach(arr => arr.classList.remove('rotate'));
+
+      dropdown.classList.add('show');
+      arrow.classList.add('rotate');
+    }
+  });
+});

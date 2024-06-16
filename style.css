@@ -17,6 +17,8 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  top: 0;
+  z-index: 1000; /* Ensure it's higher than other elements */
 }
 
 .nav-branding {
@@ -70,7 +72,7 @@
   width: 30px;
   height: 4px;
   margin: 4px 0;
-  transition: all 0.3s ease;
+  transition: all 0.0002s ease;
   background-color: #ffffff;
   z-index: 5;
 }
@@ -141,11 +143,11 @@
 }
 
 .hero-links {
-  float: left;
   display: flex;
   align-items: center;
-  padding: 12px 12px 12px 0;
-  border-radius: 10px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  padding-right: 40px;
 }
 
 .hero-section > div > .hero-links {
@@ -159,6 +161,11 @@
   height: auto; 
 }
 
+.hero-links .bullet-image {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
 
 
 
@@ -862,6 +869,7 @@ textarea {
   }
 
   .dropdown-menu {
+    margin-top: 20px;
     width: 100%;
   }
 
@@ -877,7 +885,24 @@ textarea {
     font-size: 15px;
   }
 
+.dropdown-menu ul ul {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
 
+.dropdown-menu ul ul.show {
+  display: block;
+  opacity: 1;
+}
+
+.arrow {
+  transition: transform 0.1s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(90deg);
+}
 
 
 
@@ -973,8 +998,8 @@ textarea {
 
   .hero-links {
     animation: media1;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 0.1s;
+    animation-delay: 0.1s;
     opacity: 0;
     animation-fill-mode: forwards;
   }
@@ -991,7 +1016,7 @@ textarea {
 
   .hero-links img:hover {
     transform: rotate(-20deg);
-    transition: 0.5s;
+    transition: 0.1s;
   }
 
   .popup {
