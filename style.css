@@ -150,6 +150,61 @@
   padding-right: 40px;
 }
 
+.hero-h1 {
+  animation: header;
+  animation-duration: 3s;
+  position: relative;
+}
+
+.hero-text {
+  animation: ptext;
+  animation-duration: 3s;
+  position: relative;
+}
+
+@keyframes header {
+  0% {
+    top: -300px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes ptext {
+  0% {
+    left: -1000px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.hero-links {
+  animation: media1;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes media1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-links img:hover {
+  transform: rotate(-20deg);
+  transition: 0.1s;
+}
+
 .hero-section > div > .hero-links {
   display: flex;
   gap: 25px;
@@ -157,8 +212,8 @@
 }
 
 .hero-links img {
-  width: 30px; 
-  height: auto; 
+  width: 30px;
+  height: auto;
   align-items: center;
 }
 
@@ -167,13 +222,6 @@
   height: 16px;
   margin-right: 10px;
 }
-
-
-
-
-
-
-
 
 /* Work section */
 
@@ -211,7 +259,7 @@
 
 .container > figure > img {
   width: 100%;
-  border-radius: 50px / 50px;    /*change*/
+  border-radius: 50px / 50px; /*change*/
 }
 
 .Project-one-header {
@@ -222,7 +270,8 @@
   gap: 20px;
 }
 
-.Project-one-header > h4 {                  /*AI Blend VR: A chat therapy application    */
+.Project-one-header > h4 {
+  /*AI Blend VR: A chat therapy application    */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -232,11 +281,12 @@
   margin-left: 50px;
 }
 
-.project-description {             /*Mobile-app, cross platform, 2024*/
+.project-description {
+  /*Mobile-app, cross platform, 2024*/
   display: flex;
   gap: 1px;
   justify-content: space-between;
-  margin-left: 50px;  
+  margin-left: 50px;
 }
 
 .project1-text {
@@ -245,7 +295,8 @@
   font-weight: 500;
 }
 
-.project-description > .project1-text {            /*Web Application*/
+.project-description > .project1-text {
+  /*Web Application*/
   position: static;
   width: 100px;
   height: 50px;
@@ -259,9 +310,10 @@
   color: #344563;
 }
 
-.project-description > .Project1-text2 {          /*Full Stack Dev.*/
+.project-description > .Project1-text2 {
+  /*Full Stack Dev.*/
   position: static;
-  width: 180px;                           /*changes*/
+  width: 180px; /*changes*/
   height: 16px;
   left: 0;
   top: 8px;
@@ -293,8 +345,8 @@
   color: #344563;
   position: static;
   width: 800px;
-  height: 76px;        /*changes*/
-  margin-left: 50px;   /*changes*/
+  height: 76px; /*changes*/
+  margin-left: 50px; /*changes*/
   top: 0;
 }
 
@@ -305,12 +357,12 @@
   gap: 10px;
   list-style: none;
   float: initial;
-  margin-left: 50px;   /* This change*/
+  margin-left: 50px; /* This change*/
 }
 
 .Project1-languages > .lang1 {
   float: left;
-  width: 150px;                /* This change*/
+  width: 150px; /* This change*/
   height: 25px;
   display: flex;
   justify-content: center;
@@ -318,12 +370,12 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin-top: 150px;          /* This change*/
+  margin-top: 150px; /* This change*/
 }
 
 .Project1-languages > .lang2 {
   float: left;
-  width: 150px;            /* This change*/
+  width: 150px; /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -331,12 +383,12 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin-top: 150px;        /* This change*/
+  margin-top: 150px; /* This change*/
 }
 
 .Project1-languages > .lang3 {
   float: right;
-  width: 150px;              /* This change*/
+  width: 150px; /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -344,7 +396,7 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin-top: 150px;        /* This change*/
+  margin-top: 150px; /* This change*/
 }
 
 .btn {
@@ -364,8 +416,8 @@
   box-sizing: border-box;
   border-radius: 8px;
   margin-top: 20px;
-  margin-left: 50px; 
-  padding-left: 19px;     /* This change*/
+  margin-left: 50px;
+  padding-left: 19px; /* This change*/
 }
 
 .btn:hover {
@@ -381,23 +433,6 @@
   box-shadow: 0 8px 16px #172b4d;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #about-container {
   display: grid;
@@ -560,13 +595,12 @@
   gap: 10px;
   list-style: none;
   float: initial;
-  margin-left: 50px;   /* This change*/
+  margin-left: 50px; /* This change*/
 }
 
-
-.skillset> .skill1 {
+.skillset > .skill1 {
   float: left;
-  width: 150px;            /* This change*/
+  width: 150px; /* This change*/
   height: 24px;
   display: flex;
   justify-content: center;
@@ -574,26 +608,8 @@
   border-radius: 8px;
   color: #6070ff;
   background: #ebebff;
-  margin-top: 10px;        /* This change*/
+  margin-top: 10px; /* This change*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* contact-me section */
 
@@ -758,14 +774,6 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
-
-
-
-
-
-
-
-
   /* navbar section */
 
   .nav-item a {
@@ -791,12 +799,6 @@ textarea {
     display: none;
   }
 
-
-
-
-
-
-
   /* header section */
   .hero-section {
     background-image: url(assets/images/desktop-bg-img.png);
@@ -810,20 +812,6 @@ textarea {
     margin: auto;
     width: 70%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /* work section */
   .container {
@@ -847,22 +835,6 @@ textarea {
   .Project-one-header {
     width: 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /* About section  */
   .about-content {
@@ -894,75 +866,56 @@ textarea {
     width: 100%;
   }
 
-  .about-hero-link {                                      /*grey box in skills & front, backend */
+  .about-hero-link {
+    /*grey box in skills & front, backend */
     flex-direction: column;
     gap: 10px;
     margin-right: 10px;
     padding-right: 40px;
     background-color: #ffffff;
-    
   }
 
   .about-description {
     font-size: 15px;
   }
 
-.dropdown-menu ul ul {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.1s ease;
-}
+  .dropdown-menu ul ul {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
 
-.dropdown-menu ul ul.show {
-  display: block;
-  opacity: 1;
-}
+  .dropdown-menu ul ul.show {
+    display: block;
+    opacity: 1;
+  }
 
-.arrow {
-  transition: transform 0.1s ease;
-}
+  .arrow {
+    transition: transform 0.1s ease;
+  }
 
-.arrow.rotate {
-  transform: rotate(90deg);
-}
+  .arrow.rotate {
+    transform: rotate(90deg);
+  }
 
-.hero-icons img {
-  width: 80px; 
-  height: auto; 
-  align-items: center;
-}
+  .hero-icons img {
+    width: 80px;
+    height: auto;
+    align-items: center;
+  }
 
-.hero-icons img:hover {
-  transform: rotate(-180deg);
-  transition: 0.1s;
-}
+  .hero-icons img:hover {
+    transform: rotate(-180deg);
+    transition: 0.1s;
+  }
 
-.hero-framework-skills {
-  animation: media1;
-  animation-duration: 0.1s;
-  animation-delay: 0.1s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .hero-framework-skills {
+    animation: media1;
+    animation-duration: 0.1s;
+    animation-delay: 0.1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
 
   /* Contact section */
   .contact-me {
@@ -997,66 +950,11 @@ textarea {
 
   .btn {
     padding-right: 10px;
-    width: 140px;
+    width: 160px;
   }
 
   .footer-line {
     display: none;
-  }
-
-  .hero-h1 {
-    animation: header;
-    animation-duration: 3s;
-    position: relative;
-  }
-
-  .hero-text {
-    animation: ptext;
-    animation-duration: 3s;
-    position: relative;
-  }
-
-  @keyframes header {
-    0% {
-      top: -300px;
-    }
-
-    100% {
-      top: 0;
-    }
-  }
-
-  @keyframes ptext {
-    0% {
-      left: -1000px;
-    }
-
-    100% {
-      left: 0;
-    }
-  }
-
-  .hero-links {
-    animation: media1;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes media1 {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  .hero-links img:hover {
-    transform: rotate(-20deg);
-    transition: 0.1s;
   }
 
   .popup {
