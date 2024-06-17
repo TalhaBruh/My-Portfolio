@@ -874,12 +874,12 @@ textarea {
     width: 100%;
   }
 
-  .about-hero-link {
+  .about-hero-link {                                      /*grey box in skills & front, backend */
     flex-direction: column;
     gap: 10px;
     margin-right: 10px;
     padding-right: 40px;
-    background-color: #f7f7f9;
+    background-color: #ffffff;
   }
 
   .about-description {
