@@ -553,9 +553,29 @@
   margin-right: 20px;
 }
 
+.skillset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  float: initial;
+  margin-left: 50px;   /* This change*/
+}
 
 
-
+.skillset> .skill1 {
+  float: left;
+  width: 150px;            /* This change*/
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #6070ff;
+  background: #ebebff;
+  margin-top: 10px;        /* This change*/
+}
 
 
 
@@ -880,6 +900,7 @@ textarea {
     margin-right: 10px;
     padding-right: 40px;
     background-color: #ffffff;
+    
   }
 
   .about-description {
