@@ -898,7 +898,7 @@ textarea {
     transform: rotate(90deg);
   }
 
-  .hero-icons img {
+  .hero-icons img {               
     width: 80px;
     height: auto;
     align-items: center;
