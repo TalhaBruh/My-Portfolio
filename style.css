@@ -216,11 +216,10 @@
   height: auto;
   align-items: center;
 }
-
-.hero-links .bullet-image {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
+.hero-gmail img {
+  width: 40px;
+  height: auto;
+  align-items: center;
 }
 
 /* Work section */
