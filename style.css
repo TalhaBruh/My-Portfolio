@@ -568,6 +568,8 @@
   flex-direction: column;
 }
 
+
+
 #frameworks {
   margin-top: 20px;
   padding: 10px;
@@ -888,13 +890,14 @@ textarea {
   .dropdown-menu ul ul.show {
     display: block;
     opacity: 1;
+    /* margin-top: -30px; */
   }
 
-  .arrow {
+  .arrowImg {
     transition: transform 0.1s ease;
   }
 
-  .arrow.rotate {
+  .arrowImg.rotate {
     transform: rotate(90deg);
   }
 
@@ -916,6 +919,20 @@ textarea {
     opacity: 0;
     animation-fill-mode: forwards;
   }
+  
+  .arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: start;
+  }
+  .heading-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
 
   /* Contact section */
   .contact-me {

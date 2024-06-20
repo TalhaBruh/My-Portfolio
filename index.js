@@ -161,7 +161,7 @@ input.forEach((item) => {
 
 document.querySelectorAll(".menu1").forEach((menu) => {
   menu.addEventListener("click", () => {
-    const arrow = menu.querySelector(".arrow");
+    const arrow = menu.querySelector(".arrowImg");
     const dropdown = menu.nextElementSibling;
 
     if (dropdown.classList.contains("show")) {
@@ -172,7 +172,7 @@ document.querySelectorAll(".menu1").forEach((menu) => {
         .querySelectorAll(".dropdown-menu ul ul")
         .forEach((dd) => dd.classList.remove("show"));
       document
-        .querySelectorAll(".arrow")
+        .querySelectorAll(".arrowImg")
         .forEach((arr) => arr.classList.remove("rotate"));
 
       dropdown.classList.add("show");
