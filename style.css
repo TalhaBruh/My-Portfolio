@@ -239,13 +239,14 @@
   border-radius: 16px;
   border: 1px solid rgb(223, 225, 230);
   margin: 60px auto;
-  padding: 16px 0;
+  padding: 8px 0;
   flex-direction: row;
 }
 
 .container > figure {
-  margin: 0 30px;
-  flex: 1;
+  margin: 0 20px;
+  height: 1000px;
+  width: 776px;
 }
 
 .popup_body img {
