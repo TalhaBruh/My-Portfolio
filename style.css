@@ -235,9 +235,9 @@
 #work-container {
   display: grid;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding-top: 12px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.044);
 }
 
 .container {
@@ -246,14 +246,14 @@
   border-radius: 16px;
   border: 1px solid rgb(223, 225, 230);
   margin: 60px auto;
-  padding: 8px 0;
+  padding: 70px 0;
   flex-direction: row;
 }
 
 .container > figure {
   margin: 0 20px;
   height: 620px;
-  width: 776px;
+  width: 800px;
 }
 
 .popup_body img {
