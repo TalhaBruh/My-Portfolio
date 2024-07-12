@@ -17,6 +17,21 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 const projectList = [
   {
+    title: "Netlify",
+    description:
+      "A Netflix Clone that is integrated with tmdb allowing user to be updated with the latest movies along with creating personalized library and adding reviews watiching trailers etc.Also the users can change dark and light theme according to their preference.",
+    imageURL: "assets/images/netlifysnips.png",
+    company: "Semation Labs",
+    role: "Full Stack Development",
+    year: "2024",
+    tags: ["React", "NodeJS", "MongodbAtlas", "Github", "Tailwind"],
+    liveLink:
+      "https://github.com/TalhaBruh/Netlify-MERN-stack-Netflix-clone",
+    sourceLink:
+      "https://github.com/TalhaBruh/Netlify-MERN-stack-Netflix-clone",
+  },
+
+  {
     title: "AI Blend VR",
     description:
       "AI-VR Metahuman integrated in Unreal Engine through which user can conduct his mood therapy while customizing the appearance, response length and Conversation starting mood. The metahuman will have a real-time response within seconds and will use gesture movement and lip synchronization for a realistic experience in VR.",
